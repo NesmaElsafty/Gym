@@ -1,0 +1,24 @@
+.offset-md-7 {
+    margin-left: 26.333333%;
+    
+}
+.checkbox .checkbox1 table tr td div img{width: 150px;height: 150px; margin-right: 10px;border-radius: 50%;}
+.checkbox .checkbox1 table tr td div img:hover{transform:scale(1.1)}
+.checkbox .checkbox1 table tr td div{float: left;}
+.checkbox .checkbox1 table tr td {padding: 10px 60px 40px 40px}  
+.checkbox .checkbox1 table tr td p{color: white;text-transform: capitalize;font-weight: bold;text-align: center;font-size: 20px;font-family: sans-serif ;position: relative;top:-25px;right:-10px}
+.container span{color: white;}
+.container .progress{margin-bottom:15px }
+.custom-control-label::before{width: 16px;height: 16px;}/*to hide the checkbox*/
+@media screen and (max-width: 542px){
+    .tab .container table{position: relative;left:50px}
+    .tab .container table tr td{max-width: 150px;padding: 0px 0px 40px 0px}
+    .tab .container table tr td img{max-width: 75px;max-height: 75px;}
+  }
+  @media (min-width:542px) and (max-width:1100px){
+    .tab .checkbox{position: relative;left:-120px}
+  }
+
+
+
+      

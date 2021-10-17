@@ -1,0 +1,82 @@
+
+
+
+.container .row .p p{font-weight: bold;font-size: 30px;text-align: center;color: white;margin-top:-100px;margin-left:-350px}
+.container .row .but{margin-top: 70px}
+.container .row .but ul .d-block .but1{outline: none;margin:15px;background-color: #1A2127;;}
+.container .row .but ul .d-block .but1:hover{background:linear-gradient(-45deg, #23D5AB, #23A6D5)}
+.container span{color: white;}
+.container .progress{margin-bottom:30px }
+
+@media screen and (max-width: 542px){
+.tab .container .row ul li label{width: 345px;
+                                 font-size: 16px;
+  }
+  .tab .container .row ul li{margin:40px 0 }  
+  .tab .container .row .donate-now{position: relative;left:-263px}
+}
+
+@media (min-width:542px) and (max-width:769px){
+  .tab .myeffort{position: relative;left:-290px}
+ .tab .container .row .p p{position: relative;right:-265px}
+}
+
+@media (min-width:770px) and (max-width:1100px){
+  .tab .myeffort{position: relative;left:-185px}
+ .tab .container .row .p p{position: relative;right:-170px}
+}
+
+
+.donate-now {
+    list-style-type: none;
+    margin: 25px 0 0 0;
+    padding: 0;
+    
+  }
+  
+  .donate-now li {
+    margin: 40px;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    
+  }
+  
+  .donate-now label,
+  .donate-now input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .donate-now input[type="radio"] {
+    opacity: 0.01;
+    z-index: 100;
+  }
+  
+  .donate-now input[type="radio"]:checked+label,
+  .Checked+label {
+    background:linear-gradient(-45deg, #23D5AB, #23A6D5)
+  }
+  
+.donate-now label {
+    padding: 10px;
+    width: 520px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    font-family: sans-serif ;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 90;
+  }
+  
+ /* .donate-now label:hover {
+    background: #DDD;
+  }*/

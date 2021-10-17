@@ -1,0 +1,35 @@
+/*statrt doctor */
+.container .row div input[type="button"]{outline: none;color: white;background-color: #56CCF2;border-radius: 10px;width:155px;height: 55px;border:none;font-family: sans-serif ;font-size: 17px;font-weight: bold;text-transform: uppercase;}
+.container .row div input[type="button"]:hover{background-color:#2D9CDB;}
+@media (min-width:1140px) and (max-width:3000px){
+    .container .row .line{width:60%}
+}
+@media (min-width:100px) and (max-width:575px){
+    .doctor{padding: 40px;}
+}
+/*end doctor */
+/*statrt plan */
+.btn{background-color: #56CCF2;}
+.btn-primary{border-color: white;}
+.container .row .card1{position: relative;left: 250px;}
+.container .row .card2{position: relative;right: -500px;}
+@media (min-width:1100px) and (max-width:3000px){
+    .container .row .card1{margin:50px 0 20px 0;position: relative;left:150px}
+    .container .row .card2{margin:50px 0 20px 0;} 
+    
+}
+@media (min-width:834px) and (max-width:1100px){
+    .container .row .card1{position: relative;left: 100px;margin-top: 50px;}
+    .container .row .card2{position: relative;right: -250px;margin-top: 50px;} 
+    
+}
+@media (min-width:768px) and (max-width:835px){
+    .container .row .card1{position: relative;left: 50px;margin-top: 50px;}
+    .container .row .card2{position: relative;right: -100px;margin-top: 50px;} 
+    
+}
+@media (min-width:100px) and (max-width:766px){
+    .container .row .card1{position: relative;left: 40px;margin-top: 50px;}
+    .container .row .card2{position: relative;left: 40px;margin-top: 50px;margin-bottom: 50px;} 
+}
+/*end plan */
